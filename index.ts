@@ -1,6 +1,6 @@
 // Importing necessary modules and files
-import app from "./app"; 
-import MongoConnection from "./database/connection"; 
+import app from "./src/app"; 
+import MongoConnection from "./src/database/connection"; 
 require("dotenv").config();
 
 // Getting port number from environment variables or defaulting to an empty string if not defined

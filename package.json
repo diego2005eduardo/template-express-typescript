@@ -2,9 +2,9 @@
   "name": "model-base",
   "version": "1.0.0",
   "description": "Base model for future projects",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "start": "npx ts-node --files",
+    "start": "npx ts-node index.ts --files",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
